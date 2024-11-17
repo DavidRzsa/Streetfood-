@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(115, 115, 231);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #302b2b;;
+    color: rgb(243, 241, 241);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+section {
+    margin: 20px;
+}
+
+.preview-item {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.preview-item img {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    background-color:  rgb(115, 115, 231);
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+footer {
+    background-color: #302b2b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#map {
+    margin: 0 140;
+    width: 85px;
+    height: 500px;
+}
+.étterem{
+    text-align: left;
+}
+.about{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    font-size: 26px;
+}
+.térkép{
+    text-align: left;
+}
